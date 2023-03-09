@@ -1,7 +1,7 @@
 #! /bin/bash
 
-cp -R www/modules/dummy /usr/share/centreon/www/dummy
-chown -R apache. /usr/share/centreon/www/dummy
+cp -R www/modules/dummy /usr/share/centreon/www/modules/dummy
+chown -R apache.  /usr/share/centreon/www/modules/dummy
 
 cp -R backend/config /usr/share/centreon/config
 cp -R backend/src /usr/share/centreon/src
